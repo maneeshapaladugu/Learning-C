@@ -13,7 +13,7 @@ main()
        printf("Negative\n");
   } 
   else
-     printf("Positive\n");*/
+     printf("Positive\n");
 
 //using bitwise
  /*int n,i=sizeof(int)*8-1;
