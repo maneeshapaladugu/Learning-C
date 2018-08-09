@@ -1,7 +1,7 @@
 #include<stdio.h>
 main()
 {
-//positive or negative using control statemets
+//Find positive or negative using control statemets
   int n;
   printf("Enter a number\n");
   scanf("%d",&n);
