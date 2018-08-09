@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-   //program to convert a char from upper to lower case or lower to upper case
+   //To convert a char from upper to lower case or lower to upper case
    char ch;
    printf("Enter a character\n");
    scanf("%c",&ch);
