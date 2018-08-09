@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+   //To display binary of given decimal
    int n,i=sizeof(int)*8-1;
    printf("Enter a number\n");
    scanf("%d",&n);
