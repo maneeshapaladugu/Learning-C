@@ -10,7 +10,6 @@ int main()
   {
      printf("%d",n>>i&1);
   }
-
   for(i=0,j=4;i<4;i++,j++)
   {
      if((n>>i&1)!=(n>>j&1))
@@ -19,7 +18,6 @@ int main()
          n=n^(1<<j);
      }
   }
-
   printf("\n");
   printf("After Reverse\n");
   for(i=31;i>=0;i--)
