@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-//armstrong number
- int n,rem,sum=0,temp;
+//To find whether given number is armstrong or not
+  int n,rem,sum=0,temp;
   printf("Enter a number\n");
   scanf("%d",&n);
   temp=n;
