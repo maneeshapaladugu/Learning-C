@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
-{
-   int x,y,flag;
+{  
+   //To compare 2 numbers equal or not using bitwise operators
+   int x,y;
    printf("Enter 2 numbers\n");
    scanf("%d%d",&x,&y);
    if(x^y)
@@ -9,7 +10,10 @@ int main()
    else
       printf("Equal\n");
 
-   /*for(i=0;i<sizeof(int)*8;i++)
+   /* int x,y,flag;
+   printf("Enter 2 numbers\n");
+   scanf("%d%d",&x,&y);
+   for(i=0;i<sizeof(int)*8;i++)
    {
       if((x>>i&1)!=(y>>i&1))
       {
