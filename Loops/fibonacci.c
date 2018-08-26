@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-{
+{   //To display fibonacci series in the given range
     int x=0,y=1,z=0,n;
     printf("Enter range\n");
     scanf("%d",&n);
