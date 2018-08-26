@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
-{
+{  
+  //Multiplication tables from 1 to 10
   int i,j;
   for(i=1;i<=10;i++)
   { 
