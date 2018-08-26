@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+  //Accept the month in digits from user. Display the month in words
   int n;
   printf("Enter a number\n");
   scanf("%d",&n);
