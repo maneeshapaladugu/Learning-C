@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-   //To display binary of given decimal
+   //To display binary of given decimal using goto statement
    int n,i=sizeof(int)*8-1;
    printf("Enter a number\n");
    scanf("%d",&n);
@@ -12,6 +12,6 @@ int main()
          printf("0");
       i--;
       if(i>=0)
-         goto binary; 
+         goto binary;
 }
 
