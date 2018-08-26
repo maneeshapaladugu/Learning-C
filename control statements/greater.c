@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+   //To find largest number using else-if ladder
    int a,b,c;
    printf("Enter a,b,c values\n");
    scanf("%d%d%d",&a,&b,&c);
