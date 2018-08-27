@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  //To find grade of the mark input
+  //To find grade of the mark input using else-if ladder
   int m;
   printf("Enter your mark\n");
   scanf("%d",&m);
