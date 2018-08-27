@@ -1,17 +1,18 @@
 #include<stdio.h>
 int main()
-{
-   int a[5],n,i,small;
+{ 
+   //To find biggest element in an array
+   int a[5],n,i,big;
    n=sizeof(a)/sizeof(a[0]);
    printf("Enter elements\n");
    for(i=0;i<n;i++)
       scanf("%d",&a[i]);
-   small=a[0];
+   big=a[0];
    for(i=1;i<n;i++)
    {
-       if(a[i]<small)
-          small=a[i];
+       if(a[i]>big)
+          big=a[i];
    }
-   printf("Smallest element is %d",small);
+   printf("Biggest element is %d",big);
    printf("\n");
 }
