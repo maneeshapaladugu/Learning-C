@@ -1,8 +1,9 @@
 #include<stdio.h>
 int main()
 {
+   //To calculate area and perimeter of the rectangle and circle
    float r_area,r_perimeter,c_area,c_perimeter,l,b,r;
-   //rectangle area=l*b    rectangle perimeter=2*l+2*b  
+   //rectangle area=l*b    rectangle perimeter=2*(l+b)  
    //circle area=pi*r*r   circle perimeter=2*Pi*r   
    printf("Enter length,breadth,radius\n");
    scanf("%f%f%f",&l,&b,&r);
