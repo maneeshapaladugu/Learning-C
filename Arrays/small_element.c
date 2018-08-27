@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+   //To find smallest element in array
    int a[5],n,i,small;
    n=sizeof(a)/sizeof(a[0]);
    printf("Enter elements\n");
