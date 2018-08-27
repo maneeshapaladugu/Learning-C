@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+  //To swap 2 numbers using bitwise operator
   int a,b;
   printf("Enter 2 numbers\n");
   scanf("%d%d",&a,&b);
