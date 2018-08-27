@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main()
 {
+  //To find the average and percentage marks of 5 subjects
   int m1,m2,m3,m4,m5,total;
   float average,percentage;
   printf("Enter marks in 5 subjects\n");
