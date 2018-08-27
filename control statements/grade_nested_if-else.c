@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+  //To find grade of the mark input using nested if-else
   int m;
   printf("Enter your mark\n");
   scanf("%d",&m);
