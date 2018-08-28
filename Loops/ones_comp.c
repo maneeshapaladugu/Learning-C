@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+    //Complement of a given number in different formats
     int n,ct,i;
     printf("Enter a number\n");
     scanf("%d",&n);
