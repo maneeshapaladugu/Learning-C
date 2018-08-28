@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+   //To find power of a given number
    int i,b,e,power=1;
    printf("Enter base\n");
    scanf("%d",&b);
