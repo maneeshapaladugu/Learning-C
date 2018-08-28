@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+ //To rotate bits of a given number
  unsigned int n;
  int r,msb,lsb,s=sizeof(int)*8-1,choice;
  printf("Enter a number and no-of rotations\n");
