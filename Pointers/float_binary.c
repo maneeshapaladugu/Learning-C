@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-   //To display binary of a real number
+   //To display equivalent binary of float value using character pointer
    float n=7.5;
    char *cp=(char*)&n;
    for(int i=3;i>=0;i--,printf(" "))
