@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-   //Sorting elements in Ascending order using bubble sort method
+   //Sorting elements in ascending order using bubble sort method
    int a[5],n,i,j,t;
    n=sizeof(a)/sizeof(a[0]);
    printf("Enter elements\n");
