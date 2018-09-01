@@ -7,10 +7,9 @@ int main()
    printf("Enter elements\n");
    for(i=0;i<n;i++)
       scanf("%d",&a[i]);
-   printf("Before sort\n");
+   printf("Before sorting\n");
    for(i=0;i<n;i++)
       printf("%d ",a[i]);
-   printf("\n");
    for(i=0;i<n-1;i++)
    {
        for(j=i+1;j<n;j++)
@@ -23,7 +22,7 @@ int main()
           }
        }
    }
-   printf("After sort\n");
+   printf("\nAfter sorting\n");
    for(i=0;i<n;i++)
         printf("%d ",a[i]);
    printf("\n");
