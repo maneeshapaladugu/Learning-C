@@ -1,6 +1,7 @@
 #include<stdio.h>
 int main()
 {
+   //To find the no-of times a character is presented in a given string
    char str[20],ch;
    int i,count=0;
    printf("Enter a string\n");
