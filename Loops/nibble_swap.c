@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-  //To reverse nibbles in a single byte
+  //To swap nibbles of a single byte
   int n,i,j;
   printf("Enter a number\n");
   scanf("%d",&n);
