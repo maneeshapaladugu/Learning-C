@@ -1,11 +1,11 @@
 #include<stdio.h>
 int main()
 {
-  //To reverse nibbles in a given byte
-  int n,i,j,t1,t2;
+  //To reverse nibbles in a single byte
+  int n,i,j;
   printf("Enter a number\n");
   scanf("%d",&n);
-  printf("Before Reverse\n");
+  printf("Before swapping nibbles\n");
   for(i=31;i>=0;i--)
   {
      printf("%d",n>>i&1);
@@ -19,7 +19,7 @@ int main()
      }
   }
   printf("\n");
-  printf("After Reverse\n");
+  printf("After swapping nibbles\n");
   for(i=31;i>=0;i--)
   {
      printf("%d",n>>i&1);
