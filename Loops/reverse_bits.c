@@ -7,9 +7,7 @@ int main()
   scanf("%d",&n);
   printf("Before Reverse\n");
   for(i=31;i>=0;i--)
-  {
-     printf("%d",n>>i&1);
-  }
+      printf("%d",n>>i&1);
   for(i=0,j=31;i<j;i++,j--)
   {
      if((n>>i&1)!=(n>>j&1))
@@ -18,11 +16,8 @@ int main()
          n=n^(1<<j);
      }
   }
-  printf("\n");
-  printf("After Reverse\n");
+  printf("\nAfter Reverse\n");
   for(i=31;i>=0;i--)
-  {
-     printf("%d",n>>i&1);
-  }
+      printf("%d",n>>i&1);
   printf("\n");
 }
