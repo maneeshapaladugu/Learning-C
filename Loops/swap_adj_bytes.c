@@ -8,10 +8,7 @@ int main()
   printf("Before swapping adjacent bytes\n");
   printf("%x\n",n);
   for(i=31;i>=0;i--)
-  {
-     printf("%d",n>>i&1);
-  }
-
+      printf("%d",n>>i&1);
   for(i=0,j=8;i<8;i++,j++)
   {
      t1=n>>i&1;
@@ -22,13 +19,9 @@ int main()
          n=n^(1<<j);
      }
   }
-
-  printf("\n");
-  printf("After swapping adjacent bytes\n");
+  printf("\nAfter swapping adjacent bytes\n");
   printf("%x\n",n);
   for(i=31;i>=0;i--)
-  {
      printf("%d",n>>i&1);
-  }
   printf("\n");
 }
