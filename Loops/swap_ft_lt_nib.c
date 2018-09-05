@@ -7,10 +7,7 @@ int main()
   scanf("%d",&n);
   printf("Before swapping nibbles\n");
   for(i=31;i>=0;i--)
-  {
-     printf("%d",n>>i&1);
-  }
-
+      printf("%d",n>>i&1);
   for(i=0,j=28;i<4;i++,j++)
   {
      t1=n>>i&1;
@@ -21,12 +18,8 @@ int main()
          n=n^(1<<j);
      }
   }
-
-  printf("\n");
-  printf("After swapping nibbles\n");
+  printf("\nAfter swapping nibbles\n");
   for(i=31;i>=0;i--)
-  {
-     printf("%d",n>>i&1);
-  }
+      printf("%d",n>>i&1);
   printf("\n");
 }
