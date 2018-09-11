@@ -2,20 +2,20 @@
 int main()
 {
    //To reverse the string
-   char a[10],t,l,i,j;
+   char arr[10],t,l,i,j;
    printf("Enter a string\n");
-    scanf("%s",a);
+    scanf("%s",arr);
    printf("Before reverse\n");
-    printf("%s\n",a);
-   for(l=0;a[l];l++);//length of the string
+    printf("%s\n",arr);
+   for(l=0;arr[l];l++);//length of the string
    for(i=0,j=l-1;i<j;i++,j--)
    {
-        t=a[i];
-        a[i]=a[j];
-        a[j]=t;
+        t=arr[i];
+        arr[i]=arr[j];
+        arr[j]=t;
    }
    printf("\nAfter reverse\n");
-      printf("%s\n",a);
+      printf("%s\n",arr);
 }
 
 
