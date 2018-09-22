@@ -1,5 +1,5 @@
-#include<string.h>
 #include<stdio.h>
+#include<string.h>
 void isPalindrome(char *str)
 {
   //To find whether given string is a palindrome
@@ -14,18 +14,6 @@ void isPalindrome(char *str)
     }
   }
   printf("%s is Palindrome\n",str);
-
-  /*int l,h;
-  l=0,h=strlen(str)-1;
-  while(h>l)
-  {
-    if(str[l++]!=str[h--])
-    {
-      printf("%s is not Palindrome\n",str);
-      return;
-    }
-  }
-  printf("%s is Palindrome\n",str);*/
 }
 
 int main()
