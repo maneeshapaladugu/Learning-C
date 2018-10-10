@@ -1,4 +1,5 @@
 #include<stdio.h>
+// User defined atof() function
 float my_atof(const char *p)
 {
   int sum1=0,sum2=0,flag=0,factor=1;
