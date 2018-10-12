@@ -23,5 +23,3 @@ int main()
   printf("After deletion\n");
   printf("%s\n",str);
 }
-
-~   
